@@ -7,7 +7,6 @@ class Peer:
         self.port = port
         self.ip_addr = socket.gethostbyname(socket.gethostname())
         self.peers = {}  # { (ip, port): team name }
-        # self.mand_peers = []
         self.mand_peers = [('10.206.4.201', 1255), ('10.206.5.228', 6555)]
         self.running = True
         self.lock = threading.Lock()
