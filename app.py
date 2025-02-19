@@ -39,7 +39,7 @@ class Peer:
                     else:
                         with self.lock:
                             self.peers[(addr[0], sender_port)] = team_name
-                        print(f"\nMessage from {addr[0]}:{sender_port} - {team_name}: {msg}")
+                        print(f"\n{addr[0]}:{sender_port} {team_name} {msg}")
                 except Exception as e:
                     print(f"Error handling client: {e}")
                     break
