@@ -1,4 +1,4 @@
-# P2P Chat System
+# P2P Chat Application
 This repository contains the code for Assignment-2 of the course CS-216: Introduction to Blockchain. The feature specificied by the bonus question has been implemented as well.
 
 <div align="center">
