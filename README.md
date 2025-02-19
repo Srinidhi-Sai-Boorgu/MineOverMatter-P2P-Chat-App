@@ -32,7 +32,7 @@ This repository contains the code for Assignment-2 of the course CS-216: Introdu
 - Type the message you want to send.
 - The message is encoded into the required format before transmission.
 - On the recipient's side, the message is decoded back into readable format.
-- Upon sending a message "exit", you will be removed from the recipient's peer list.
+- Upon sending a message "exit" (not case sensitive), you will be removed from the recipient's peer list.
 
 ### 2. Query Peers
 - Select option `2` from the menu.
