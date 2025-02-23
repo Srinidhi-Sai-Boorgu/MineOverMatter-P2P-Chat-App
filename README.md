@@ -22,7 +22,8 @@ This repository contains the code for Assignment-2 of the course CS-216: Introdu
    ```
 4. Enter the name of your peer node (one word) when prompted.
 5. Enter a port number for your server to listen on (Port: 1024 to 49151).
-6. Choose an option from the menu to interact with other peers.
+6. Wait as your node attempts to connect to the mandatory peers.
+7. Choose an option from the menu to interact with other peers.
 
 ## Functionalities
 
