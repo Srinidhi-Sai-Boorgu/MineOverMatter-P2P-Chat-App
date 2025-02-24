@@ -53,7 +53,7 @@ This repository contains the code for Assignment-2 of the course CS-216: Introdu
 
 ## Technical Details
 
-- Every new peer is bootstrapped with two static IP-port combinations (`10.206.4.201:1255` and `10.206.5.228:6555`).
+- Every new peer is bootstrapped with two static IP-port combinations (`10.206.4.122:1255` and `10.206.5.228:6555`).
 - The program uses ephemeral ports when making outgoing connections to other peers.
 - The server and client run on separate threads to allow simultaneous sending and receiving of messages.
 - Messages are encoded in the following format:
